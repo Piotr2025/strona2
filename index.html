@@ -2,28 +2,27 @@
 <html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Prezentacja: Scroll & Resize</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prezentacja JS: Scroll & Resize</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div id="progress-container">
-        <div id="progress-bar"></div>
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
     </div>
 
     <nav id="navbar">
-        <div class="logo">Moja Strona</div>
-        <ul>
-            <li>Start</li>
-            <li>O nas</li>
-            <li>Kontakt</li>
-        </ul>
+        <div class="logo">JS-Project</div>
+        <div id="size-info">Szerokość: <span id="window-width">0</span>px</div>
     </nav>
 
     <div class="content">
-        <h1>Temat 3: Zdarzenia Scroll i Resize</h1>
-        <p>Przewiń w dół, aby zobaczyć magię...</p>
-        <div id="filler-text"></div>
+        <h1>Zdarzenia Scroll oraz Resize</h1>
+        <p><strong>Zacznij przewijać w dół</strong>, aby zobaczyć pasek postępu oraz jak menu się zmniejsza.</p>
+        
+        <div id="text-box">
+            </div>
     </div>
 
     <script src="script.js"></script>
